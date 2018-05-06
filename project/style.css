@@ -1,0 +1,337 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	font-family: Arial;
+	flex-direction: column;
+}
+
+header {
+	height: 39px;
+	display: flex;
+	font-size: 14px;
+	justify-content: center;
+	background-color: #2d2d2d;
+}
+
+#grid {
+	width: 71.7%;
+	display: flex;
+	padding-top: 5px;
+	justify-content: space-between;
+}
+
+#start {
+	display: inline-flex;
+}
+
+.link {
+	cursor: pointer;
+}
+
+.delimeter {
+	margin: 0 5px;	
+}
+
+#end  a{
+	color: #ccc;
+	padding: 0.75em;
+	font-size: 0.85em;
+}
+
+#profile {
+	width: 126px;
+	display: inline-flex;
+}
+
+main {
+	flex: 1;
+	width: 61.25em;
+	margin: 0 auto;
+}
+
+#container {
+	display: inline-flex;
+}
+
+#logo {
+	height: 50px;
+	width: 180px;
+	margin: 4.6em 0 10px 10px;
+}
+
+#logo img {
+	padding-top: 17px;
+}
+
+#search {
+	display: flex;
+	font-size: 0.875em;
+	margin-top: 6.3em;
+}
+
+#search span {
+	height: 2.714em;
+	display: flex;
+	padding: 0 0.7145em;
+	align-items: center;
+	border: 1px solid #ccc;
+	justify-content: space-between;
+}
+
+.search_all {
+	background: #f7fbfd;
+}
+
+.search_all, .city {
+	color: #434a4d;
+	width: 12.14243em;
+}
+
+.quick_search {
+	width: 21.143em;
+}
+
+.quick_search  input{
+	border: none;
+	outline: none;
+	padding-left: 1em;
+}
+
+.city div {
+	width: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.find {
+	border: none;
+	display: flex;
+	width: 4.29em;
+	height: 2.714em;
+	margin-left: 1em;
+	align-items: center;
+	background: #2998e6;
+	border-radius: 0.5em;
+	justify-content: center;
+}
+
+.find a {
+	color: #ffffff;
+}
+
+#content {
+	margin: 0 0.7em;
+}
+
+#content  div{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+
+#content span {
+	width: 9.375em;
+	height: 8.125em;
+	margin: 0 0.93em 0.93em 0;
+	border: 1px solid #e6e6e6;
+}
+
+#content img {
+	margin: 0.8em;
+}
+
+#content a {
+	color: #0070CC;
+}
+
+#div {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1.125em;
+	align-items: center;
+}
+
+#new-info{
+	color: #666;
+	font-size: 0.8em;
+}
+
+#give-add  a {
+	color: #fff;
+	padding: 0.8em 1em;
+	font-size: 0.9em;
+	text-align: center;
+	background: #f17f2c;
+	border-radius: 5px;
+	border: 1px solid #e97324;
+}
+
+#text {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#app {
+	display: flex;
+	height: 8.75em;
+	width: 34.375em;
+	margin-top: 2em;
+	padding: 0 1.25em;
+	background: #39a0e5;
+	justify-content: space-between;
+}
+
+#sms {
+	padding: 1.5em 1.5em;
+}
+
+#text1 {
+	color: #fff;
+}
+
+#text2 {
+	color: #92d4ff;
+	font-size: 0.8em;	
+}
+
+#sms input {
+	width: 10em;
+	height: 2.5em;
+	font-size: 16px;
+	padding-left: 1em;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	display: table-cell;
+	border: 1px solid #d3e6f5;
+}
+
+#sms div {
+	display: inline-flex;
+}
+
+#sms  span {
+	width: 7em;
+	height: 2.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.5em;
+	border-radius: 3px;
+	background: #ffc819;
+}
+
+#sms a {
+	color: #0e5d91;
+}
+
+#app img {
+	margin: -1.0625em 2em 0 0;
+	display: block;
+}
+
+#network {
+	text-align: center;
+	margin: 2.3875em 0 0 1.1em;
+	border: 1px solid #e6e6e6;
+	padding: 1.1em 0.625em 1px;
+	line-height: 1.5625em;
+}
+
+#network p {
+	line-height: 1.46em;
+}
+
+#p1 {
+	color: #333;
+	margin: 0.46em 0;
+	font-size: 0.8125em;
+}
+
+#p2 {
+	font-size: 0.735em;
+	margin: 0.588em 0;
+	color: #5a5a5a;
+}
+
+#network img {
+	margin: 0.9375em 0.3125em;
+}
+
+#regions {
+	width: 97.96%;
+}
+
+#regions  p{
+	color: #333;
+	font-size: 0.8125em;
+}
+
+#regions span {
+	font-size: 0.75em;
+	line-height: 1.5625em;
+	padding-right: 1.25em;
+}
+
+#regions a {
+	color: #5a5a5a;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+#regions a:hover {
+	color: #f27900;
+	border-bottom: 1px solid #f27900;
+}
+
+#faq h6 {
+	margin: 1.5em 0;
+	color: #5a5a5a;
+	font-weight: normal;
+	font-size: 0.75em;
+}
+
+#faq h4 {
+	color: #333;
+	margin: 2em 0 1em 0;
+	font-size: 1.125em;
+	font-weight: normal;
+}
+
+#faq p {
+	color: #5a5a5a;
+	font-size: 0.75em;
+}
+
+footer {
+	display: flex;
+	height: 6.875em;
+	padding-top: 0.75em;
+	justify-content: center;
+	border-top: 1px solid #ccc;
+}
+
+footer span {
+	margin-right: 1.5em;
+}
+
+footer p {
+	color: #666;
+	font-size: 0.69em;
+	margin: 0;
+}
+
+footer a {
+	font-size: 0.75em;
+	margin-right: 1em;
+	color: #0070CC;
+}
+
+#phones {
+	margin-top: 0.2em;
+	margin-left: 0.5em;
+}
